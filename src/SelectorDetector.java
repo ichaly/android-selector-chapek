@@ -75,8 +75,8 @@ public class SelectorDetector {
 	}
 
 	private void createFile(final VirtualFile file, final VirtualFile folder, List<String> fileSuffixes) {
-		final String fileName = removeSuffixes(file.getName(), fileSuffixes).replace(".9.png", ".xml").replace(".png",
-				".xml");
+		final String fileName = removeSuffixes(file.getName(), fileSuffixes).replace(".9.png", "_selector.xml").replace(".png",
+				"_selector.xml").replace(".xml", "_selector.xml");
 		if (mCreatedFiles.contains(fileName)) {
 			Log.d("skipping, already generated");
 			return;
@@ -129,7 +129,7 @@ public class SelectorDetector {
 	}
 
 	private static String removeFileEndings(String fileName) {
-		return fileName.replace(".9.png", "").replace(".png", "");
+		return fileName.replace(".9.png", "").replace(".png", "").replace(".xml", "");
 	}
 
 	static class Result {

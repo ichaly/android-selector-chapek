@@ -1,7 +1,7 @@
 <idea-plugin version="2" url="https://github.com/inmite/android-selector-chapek">
 	<id>eu.inmite.android.plugin.selectorchapek</id>
 	<name>SelectorChapek for Android</name>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<vendor email="android@inmite.eu" url="http://www.inmite.eu">Inmite</vendor>
 
 	<description><![CDATA[
@@ -10,6 +10,61 @@
 
 	<change-notes><![CDATA[
 <html>
+<table cellspacing='0' style='border: solid #000 1px;'>
+    <thead>
+    <tr style='background-color: #E6F1F6;'>
+        <th style='border: solid #000 1px;padding:5px;'>File name suffix</th>
+        <th style='border: solid #000 1px;padding:5px;'>Drawable state</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td style='border: solid #000 1px;padding:5px;'>_normal</td>
+        <td style='border: solid #000 1px;padding:5px;'>(default state)</td>
+    </tr>
+    <tr style='background-color: #F8F8F8;'>
+        <td style='border: solid #000 1px;padding:5px;'>_pressed</td>
+        <td style='border: solid #000 1px;padding:5px;'>state_pressed</td>
+    </tr>
+    <tr>
+        <td style='border: solid #000 1px;padding:5px;'>_focused</td>
+        <td style='border: solid #000 1px;padding:5px;'>state_focused</td>
+    </tr>
+    <tr style='background-color: #F8F8F8;'>
+        <td style='border: solid #000 1px;padding:5px;'>_disabled</td>
+        <td style='border: solid #000 1px;padding:5px;'>state_enabled (false)</td>
+    </tr>
+    <tr>
+        <td style='border: solid #000 1px;padding:5px;'>_checked</td>
+        <td style='border: solid #000 1px;padding:5px;'>state_checked</td>
+    </tr>
+    <tr style='background-color: #F8F8F8;'>
+        <td style='border: solid #000 1px;padding:5px;'>_selected</td>
+        <td style='border: solid #000 1px;padding:5px;'>state_selected</td>
+    </tr>
+    <tr>
+        <td style='border: solid #000 1px;padding:5px;'>_hovered</td>
+        <td style='border: solid #000 1px;padding:5px;'>state_hovered</td>
+    </tr>
+    <tr style='background-color: #F8F8F8;'>
+        <td style='border: solid #000 1px;padding:5px;'>_checkable</td>
+        <td style='border: solid #000 1px;padding:5px;'>state_checkable</td>
+    </tr>
+    <tr>
+        <td style='border: solid #000 1px;padding:5px;'>_activated</td>
+        <td style='border: solid #000 1px;padding:5px;'>state_activated</td>
+    </tr>
+    <tr style='background-color: #F8F8F8;'>
+        <td style='border: solid #000 1px;padding:5px;'>_windowfocused</td>
+        <td style='border: solid #000 1px;padding:5px;'>state_window_focused</td>
+    </tr>
+    </tbody>
+</table>
+  <b>1.0.3</b> (01/25/2014)
+  <ul>
+    <li>生成的文件添加_selector
+    <li>解决使用xml作为Drawable时生成的文件中包含多余的.xml
+  </ul>
   <b>1.0.2</b> (09/03/2013)
   <ul>
     <li>Support for all drawable directories
@@ -24,6 +79,8 @@
   <ul>
     <li>Initial release
   </ul>
+  <b>Plugin homepage</b><br/>
+  <a href='https://github.com/inmite/android-selector-chapek'>https://github.com/inmite/android-selector-chapek</a>
 </html>
 ]]>
 	</change-notes>
