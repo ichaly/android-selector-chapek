@@ -1,8 +1,8 @@
 <idea-plugin version="2" url="https://github.com/inmite/android-selector-chapek">
-	<id>eu.inmite.android.plugin.selectorchapek</id>
-	<name>SelectorChapek for Android</name>
+	<id>com.eunut.android.plugin.selectorchapek</id>
+	<name>Android Selector</name>
 	<version>1.0.3</version>
-	<vendor email="android@inmite.eu" url="http://www.inmite.eu">Inmite</vendor>
+	<vendor email="i@eunut.com" url="http://www.eunut.eu">Chaly</vendor>
 
 	<description><![CDATA[
       This plugin automatically generates drawable selectors from appropriately named Android resources.
